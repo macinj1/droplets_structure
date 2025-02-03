@@ -1,6 +1,6 @@
 function [setting,image,BWI,droplet,void,void_topology,Radio,CV,DT,grain_boundaries,grain_size,inner_angles_distribution,psi] = Droplet_Structure % (setting)
 
-%% Read in the image:
+%% Read an image
 disp('Select your Image file.... The file selected is:')
 [filename, pathname] = uigetfile({'*.tiff';'*.jpg';'*.png';'*.tif'}, 'Select a Image file');
 FileName = fullfile(pathname,filename);
