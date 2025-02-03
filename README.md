@@ -15,3 +15,8 @@ For figures, the code analyses each object, droplet or void, and provides the fo
    - CV: coefficient of variation based on droplet radius; 
    - grain_boundaries: image with grain location; 
    - grain_size: area in pixels of each grain. 
+
+
+The image is rotated around a specific point using the function rotateAround [1].
+
+[1] Jan Motl (2025). Rotate an image around a point (https://www.mathworks.com/matlabcentral/fileexchange/40469-rotate-an-image-around-a-point), MATLAB Central File Exchange. Retrieved February 3, 2025.
