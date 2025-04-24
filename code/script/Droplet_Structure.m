@@ -111,7 +111,7 @@ end
 setting.Number_Droplets = length(idx) ; 
 setting.Number_Voids = length(idxb) ; 
 
-%% Void Topology 
+%% Void Topology/blank space
 
 void_topology = zeros(length(idxb),1) ;
 
